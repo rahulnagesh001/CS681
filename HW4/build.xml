@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hw08" basedir="." default="clean">
+	<property environment="env" />
+	<echo message="JUNIT: ${env.JUNIT}" />
+	<echo message="ANT_HOME: ${env.ANT_HOME}" />
+	<property name="src" location="src" />
+	<property name="bin" location="bin" />
+
+	<path id="classpath">
+		<pathelement location="bin" />
+	</path>
+
+	<target name="init">
+		<mkdir dir="${bin}" />
+	</target>
+	
+	<target name="compile" depends="init"> 
+		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no">
+			<include name="edu/umb/cs681/hw04/*.java"/>
+		</javac>
+	</target>
+	
+	<target name="compileFinish" depends="compile"></target>
+
+	<target name="clean" depends="compileFinish">
+		<delete includeemptydirs="true">
+			<fileset dir="${bin}/edu/umb/cs681/hw04" includes="**/*" />
+		</delete>
+	</target>
+</project>
