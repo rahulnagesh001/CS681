@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Directory extends FSElement implements Runnable{
 	
 	private LinkedList<FSElement> children = new LinkedList<FSElement>();
-//	private LinkedList<File> fileList = new LinkedList<File>();
+	private LinkedList<File> fileList = new LinkedList<File>();
 	private LinkedList<Directory> directoryList = new LinkedList<Directory>();
 	private LinkedList<Link> linkList = new LinkedList<Link>();
 	
