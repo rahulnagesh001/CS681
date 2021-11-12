@@ -3,7 +3,6 @@ package edu.umb.cs681.hw07;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ConcurrentSingleton implements Runnable{
-	//private ReentrantLock lock = new ReentrantLock();
 	
 	private ConcurrentSingleton(){};
 	private static ConcurrentSingleton instance = null;
