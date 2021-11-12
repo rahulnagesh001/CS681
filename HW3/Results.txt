@@ -1,0 +1,5 @@
+1 thread -  11.277594 s
+2 threads - 7.8267125 s
+4 threads - 4.5133768 s
+8 threads - 3.3846394 s
+16 threads - 3.5987044 s
