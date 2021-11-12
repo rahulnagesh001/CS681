@@ -2,8 +2,6 @@ package edu.umb.cs681.hw06;
 
 import java.util.LinkedList;
 
-
-
 public class RunnablePrimeFactorizer extends PrimeFactorizer implements Runnable {
 
 	public RunnablePrimeFactorizer(long dividend, long from, long to) {
