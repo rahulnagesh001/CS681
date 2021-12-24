@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs681.hw17.ObserverTest
+Test: verifyStock() took 30 milli sec(s)
+Test: verifyDija() took 0 milli sec(s)
+Tests run: 2, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 45 milli sec(s)
+------------- Standard Output ---------------
+PieChart of StockEvent: rtp 10.03D of StockEvent: rtp 10.03D of StockEvent: rtp 10.0PieChart of StockEvent: rtp1 27.03D of StockEvent: rtp1 27.03D of StockEvent: rtp1 27.0PieChart of DJIAEvent: 100.03D of DJIAEvent: 100.03D of DJIAEvent: 100.0PieChart of DJIAEvent: 200.03D of DJIAEvent: 200.03D of DJIAEvent: 200.0------------- ---------------- ---------------
