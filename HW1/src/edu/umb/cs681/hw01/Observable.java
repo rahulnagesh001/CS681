@@ -20,9 +20,9 @@ public class Observable {
 	
 	public void deleteObserver(Observer o) {
 		if(observers.remove(o)) {
-			System.out.println("Observer has removed");
+			System.out.println("Observer removed");
 		}else {
-			System.out.println("This observer is not existed");
+			System.out.println("This observer does not exist");
 		}
 	}
 	
